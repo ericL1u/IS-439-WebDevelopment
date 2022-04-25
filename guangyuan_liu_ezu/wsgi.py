@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'guangyuan_liu_ezu.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'guangyuan_liu_ezu.settings.development')
 
 application = get_wsgi_application()
